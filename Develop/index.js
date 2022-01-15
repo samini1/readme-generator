@@ -87,8 +87,8 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your application.',
-        choices: 
-            [{name:'Apache', value: 0},
+        choices: [
+            {name:'Apache', value: 0},
             {name:'Boost', value: 1},
             {name:'GNU GPL v3', value: 2},
             {name:'GNU GPL v2', value: 3},
@@ -101,7 +101,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'gitub',
+        name: 'github',
         message: 'Enter your GitHub username',
         validate: gitInput => {
             if (gitInput) {
@@ -132,7 +132,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
-    fs.writeFile(README.md, generateMarkdown(answers), err => {
+    fs.writeFile('README.md', generateMarkdown(answers), err => {
         if (err) {
             return console.log(err);
         }
@@ -146,11 +146,11 @@ function init() {
     .then((answers) => { 
         console.log('Using these responses to generate a README: '); 
         console.log(answers);
+        writeToFile(answers);
+    })   
+} 
 
-    })
-
-    writeToFile();
-}
 
 // Function call to initialize app
 init();
+
