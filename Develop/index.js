@@ -87,7 +87,17 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your application.',
-        choices: ['MIT','GPL', 'Apache', 'Boost', 'Unlicense']
+        choices: 
+            [{name:'Apache', value: 0},
+            {name:'Boost', value: 1},
+            {name:'GNU GPL v3', value: 2},
+            {name:'GNU GPL v2', value: 3},
+            {name:'MIT', value: 4},
+            {name:'Mozilla', value: 5},
+            {name:'Unlicense', value: 6},
+            {name:'Apache', value: 7},
+            {name:'I do not want to choose a license now', value: 8}
+            ]
     },
     {
         type: 'input',
