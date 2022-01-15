@@ -20,13 +20,20 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
 
 return `
-# Your Project Title
+# ${data.title}
 
 ## Description
 
 ${data.description}
 
 ## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 
 ## Installation
