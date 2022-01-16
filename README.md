@@ -1,9 +1,9 @@
 
-# a [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# README Generator [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
 
-a
+Accepts answers to prompts given in console in order to generate a README markdown file with a working Table of Contents.
 
 ## Table of Contents
 
@@ -17,27 +17,27 @@ a
 
 ## Installation
 
-a
+Download files. Run npm install command.
 
 ## Usage
 
-a
+Run by navigating to the appropriate folder in the console and typing "node index."
 
 ## License
 
-This application is covered by: GNU GPL v2. More informaton: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+This application is covered by: GNU GPL v3. More informaton: https://www.gnu.org/licenses/gpl-3.0
 
 ## Contributing
 
-a
+Please open an issue and seperate branch when working on new features. Merging requires review by at least one other contributer.
 
 ## Tests
 
-a
+We'll think about this later.
 
 ## Questions
 
 Further questions about this project may be directed to:
-a
-a
+aminisyrous@gmail.com
+samini1
 
