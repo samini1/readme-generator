@@ -1,10 +1,9 @@
 
-# and
+# ju [![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-undefined
 ## Description
 
-it
+s
 
 ## Table of Contents
 
@@ -18,28 +17,27 @@ it
 
 ## Installation
 
-does
+s
 
 ## Usage
 
-a
+s
 
 ## License
 
-
-
+This application is covered by: Apache 2.0. More informaton: https://opensource.org/licenses/Apache-2.0
 
 ## Contributing
 
-thing
+s
 
 ## Tests
 
-please
+s
 
 ## Questions
 
 Further questions about this project may be directed to:
-sdd
-undefined
+s
+s
 
