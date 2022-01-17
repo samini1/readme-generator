@@ -22,7 +22,9 @@ Download files. Run npm install command.
 ## Usage
 
 Run by navigating to the appropriate folder in the console and typing "node index."
-![Walkthrough Video](https://drive.google.com/file/d/1qXr_D1nVBnSJTq4YgQtqwfZZdJV4Ro52/view?usp=sharing)
+
+https://user-images.githubusercontent.com/92944248/149684213-e13fdd85-7125-4e66-95cd-4f554e023c6d.mp4
+
 
 ## License
 
