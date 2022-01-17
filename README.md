@@ -22,6 +22,7 @@ Download files. Run npm install command.
 ## Usage
 
 Run by navigating to the appropriate folder in the console and typing "node index."
+![Walkthrough Video](https://github.com/samini1/readme-generator/blob/main/readme%20walkthrough.mp4)
 
 ## License
 
